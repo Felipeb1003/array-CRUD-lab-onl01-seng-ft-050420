@@ -7,36 +7,37 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  colors = ["yellow", "blue", "red", "black"]
-  colors << "arrays!"
+  array = []
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-   colors = ["yellow", "blue", "red", "black"]
-   colors.unshift("wow")
+  array = []
+   array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  colors = ["yellow", "blue", "red", "black","arrays!"]
-  colors.pop
+  array = []
+  shift = array.pop
+  shift
 end
 
 def remove_element_from_start_of_array(array)
-  colors = ["wow","yellow", "blue", "red", "black"]
-  colors.shift
+ array= []
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  colors = ["yellow", "blue", "red", "black","am"]
-  colors[4]
+  array = []
+  array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  colors = ["wow", "yellow", "blue", "red", "black"]
-  colors.first
+  array = []
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
-  colors = ["yellow", "blue", "red", "black", "arrays!"]
-  colors.last
+  array = []
+  array.last
 end
